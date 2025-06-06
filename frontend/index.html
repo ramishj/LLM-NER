@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM + NER Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>LLM + NER Demo</h1>
+            <p class="subtitle">Enter a prompt to analyze entities and get an LLM response</p>
+        </header>
+
+        <main>
+            <div class="input-section">
+                <textarea 
+                    id="prompt" 
+                    placeholder="Enter your prompt here... For example: 'Apple Inc. is headquartered in Cupertino, California and was founded by Steve Jobs.'"
+                    rows="4"
+                ></textarea>
+                <button id="sendBtn" class="primary-button">Analyze</button>
+            </div>
+
+            <div class="results-section">
+                <div class="result-card">
+                    <h2>Detected Entities</h2>
+                    <div id="entities" class="content-box"></div>
+                </div>
+
+                <div class="result-card">
+                    <h2>LLM Response</h2>
+                    <div id="llmResponse" class="content-box"></div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Powered by FastAPI, spaCy, and Ollama</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
