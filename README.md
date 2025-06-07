@@ -2,6 +2,12 @@
 
 A simple web application that combines Named Entity Recognition (NER) using spaCy with a local LLM using Ollama. The application allows users to input text, detect named entities, and get responses from a local LLM.
 
+
+### 🎥 Demo
+
+[![Watch the demo](https://img.youtube.com/vi/c9m-BGz3N3g/0.jpg)](https://youtu.be/c9m-BGz3N3g)
+
+
 ## Features
 
 - Named Entity Recognition using spaCy
