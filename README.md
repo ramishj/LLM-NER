@@ -5,7 +5,7 @@ A simple web application that combines Named Entity Recognition (NER) using spaC
 
 ### 🎥 Demo
 
-[![Watch the demo](https://img.youtube.com/vi/c9m-BGz3N3g/0.jpg)](https://youtu.be/c9m-BGz3N3g)
+https://github.com/user-attachments/assets/50b76cd6-1bf8-4cb6-a245-aab8daf5784a
 
 
 ## Features
@@ -52,6 +52,10 @@ A simple web application that combines Named Entity Recognition (NER) using spaC
    ```
 
 ## Usage
+
+
+
+
 
 1. Open your browser and navigate to `http://localhost:3000`
 2. Enter a prompt in the text area
